@@ -10,11 +10,13 @@ public class WeekdayMenu extends Menu {
     }
 
         public double getPriceWd() {
-            return priceWd;
+
+        return priceWd;
         }
 
         public void setPriceWd(double priceWd) {
-            this.priceWd = priceWd;
+
+        this.priceWd = priceWd;
         }
     }
 

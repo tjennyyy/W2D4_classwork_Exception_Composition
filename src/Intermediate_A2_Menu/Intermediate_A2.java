@@ -32,6 +32,4 @@ public class Intermediate_A2 {
             System.out.println("There is no portion volume defined for the soup");
         }
     }
-
-
 }
