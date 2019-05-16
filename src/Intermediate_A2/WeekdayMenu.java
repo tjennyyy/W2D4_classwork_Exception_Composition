@@ -4,7 +4,7 @@ public class WeekdayMenu extends Menu {
 
     private double priceWd;
 
-    public WeekdayMenu (String mainDish, String soupOftheDay, String desert, double priceWd) {
+    public WeekdayMenu (String mainDish, Soup soupOftheDay, String desert, double priceWd) {
         super(mainDish, soupOftheDay, desert);
         this.priceWd = priceWd;
     }

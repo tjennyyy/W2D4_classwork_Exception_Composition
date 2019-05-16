@@ -3,10 +3,10 @@ package Intermediate_A2;
 public class Menu {
 
     private String mainDish;
-    private String soupOftheDay;
+    private Soup soupOftheDay; //needs to 'call' on the soup method
     private String desert;
 
-    public Menu (String mainDish, String soupOftheDay, String desert){
+    public Menu (String mainDish, Soup soupOftheDay, String desert){
         this.mainDish = mainDish;
         this.soupOftheDay = soupOftheDay;
         this.desert = desert;
@@ -21,12 +21,14 @@ public class Menu {
     }
 
     public String getSoupOftheDay(){
-        return soupOftheDay;
+        return soupOftheDay.getSoupName()+soupOftheDay.getPortionVolume(); //what you want from soup class
+
     }
 
-    public void setSoupOftheDay(String soupOftheDay){
-        this.soupOftheDay = mainDish;
-    }
+
+    /*public void setSoupOftheDay(Soup soupOftheDay){
+        this.soupOftheDay = soupOftheDay.setSoupName();
+    }*/
 
     public String getDesert(){
         return desert;

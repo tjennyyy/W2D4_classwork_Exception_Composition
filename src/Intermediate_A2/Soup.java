@@ -5,6 +5,7 @@ public class Soup {
     private String soupName;
     private String portionVolume;
 
+    //constructor soup
     public Soup (String soupName, String portionVolume){
         this.soupName = soupName;
         this.portionVolume = portionVolume;
