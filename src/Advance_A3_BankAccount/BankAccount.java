@@ -9,8 +9,8 @@ public class BankAccount  {
         this.accountBalanace = accountBalanace;
     }
 
-    public Customer getCustomer(){
-        return customer;
+    public String getCustomer(){
+        return customer.getCustomerName();//call class and what you want to see in the 'main'
     }
 
     public void setCustomer(Customer customer){

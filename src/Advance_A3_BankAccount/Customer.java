@@ -12,7 +12,7 @@ public class Customer {
         this.creditscore = creditscore;
     }
 
-    public String getCustomerName(){
+    public String getCustomerName(){ //needs to be a string otherwise you will not be able to call it in the main
         return customerName;
     }
 
