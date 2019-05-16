@@ -21,7 +21,7 @@ public class Menu {
     }
 
     public String getSoupOftheDay(){
-        return soupOftheDay.getSoupName()+soupOftheDay.getPortionVolume(); //what you want from soup class
+        return soupOftheDay.getSoupName()/*+soupOftheDay.getPortionVolume()*/; //what you want from soup class
 
     }
 
