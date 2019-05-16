@@ -37,6 +37,13 @@ public class Menu {
     public void setDesert(String desert){
         this.desert = desert;
     }
+    public String getPortionVolume() throws NoSoupVolumeDefined {
+        if (this.soupOftheDay.getPortionVolume() == null) {
+            throw new NoSoupVolumeDefined();
+        } else {
+            return this.soupOftheDay.getPortionVolume();
+        }
+    }
 
 
 

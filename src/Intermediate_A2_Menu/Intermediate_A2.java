@@ -21,8 +21,17 @@ public class Intermediate_A2 {
     public static void main (String[] args){
 
         WeekdayMenu Wd2 = new WeekdayMenu("Whatever Sandwich",(new Soup("Kale soup"," 300 ml")),"Yummy Desert",9.90);
+        WeekdayMenu Wd3 = new WeekdayMenu("Another Sandwich",(new Soup("Tom soup",  null))," Desert",9.90);
         System.out.println("Menu for this weekday: " + Wd2.getMainDish()+ ", " + Wd2.getSoupOftheDay()+ ", " + Wd2.getDesert()+ " Price: € "+Wd2.getPriceWd());
+        System.out.println("Menu for this weekday: " + Wd3.getMainDish()+ ", " + Wd3.getSoupOftheDay()+ ", " + Wd3.getDesert()+ " Price: € "+Wd3.getPriceWd());
 
-
+        try {
+            System.out.println(Wd3.getPortionVolume());
+        }
+        catch (NoSoupVolumeDefined nsvd){
+            System.out.println("There is no portion volume defined for the soup");
+        }
     }
+
+
 }
