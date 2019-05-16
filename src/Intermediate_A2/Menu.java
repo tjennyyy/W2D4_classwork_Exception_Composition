@@ -16,7 +16,7 @@ public class Menu {
         return mainDish;
     }
 
-    public void setMainDish(){
+    public void setMainDish(String mainDish){
         this.mainDish = mainDish;
     }
 
@@ -24,7 +24,7 @@ public class Menu {
         return soupOftheDay;
     }
 
-    public void setSoupOftheDay(){
+    public void setSoupOftheDay(String soupOftheDay){
         this.soupOftheDay = mainDish;
     }
 
@@ -32,7 +32,7 @@ public class Menu {
         return desert;
     }
 
-    public void setDesert(){
+    public void setDesert(String desert){
         this.desert = desert;
     }
 

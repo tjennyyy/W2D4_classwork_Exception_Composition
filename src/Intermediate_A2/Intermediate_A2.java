@@ -4,10 +4,10 @@ public class Intermediate_A2 {
 
     public static void main (String[] args){
 
-        Menu weekday1 = new Menu("Cordon Bleu mit Reis", "Gemüse Suppe", "Mohr im Hemd");
-       // Menu weekend1 = new Menu("Haschee Hörnchen", "Spinatcreme Suppe", "Panna Cotta");
-        System.out.println("Menu for this weekday: " + weekday1.getMainDish()+ ", " + weekday1.getSoupOftheDay()+ ", " + weekday1.getDesert());
-       // System.out.println("Menu for this weekend: " + weekend1.getMainDish()+ ", " + weekend1.getSoupOftheDay()+ ", " + weekend1.getDesert());
+        WeekdayMenu WD1 = new WeekdayMenu("BLT Sandwich", "Potatoe Soup", "choc cake", 9.90);
+        WeekendMenu WE1 = new WeekendMenu("Salad", "Roastbeef Sandwich Deluxe", "Tomatosoup", "Panna cotta", 15.90);
+        System.out.println("Menu for this weekday: " + WD1.getMainDish()+ ", " + WD1.getSoupOftheDay()+ ", " + WD1.getDesert()+ " Price: € "+WD1.getPriceWd());
+        System.out.println("Menu for this weekend: " + WE1.getAppertizer()+", "+WE1.getMainDish()+ ", " + WE1.getSoupOftheDay()+ ", " + WE1.getDesert()+ " Price: € "+WE1.getPriceWe());
 
     }
 }

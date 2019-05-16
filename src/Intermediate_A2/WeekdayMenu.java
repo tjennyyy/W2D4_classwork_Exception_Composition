@@ -2,18 +2,19 @@ package Intermediate_A2;
 
 public class WeekdayMenu extends Menu {
 
-    private double price;
+    private double priceWd;
 
-    public WeekdayMenu (String mainDish, String soupOftheDay, String desert, double price) {
+    public WeekdayMenu (String mainDish, String soupOftheDay, String desert, double priceWd) {
         super(mainDish, soupOftheDay, desert);
-        this.price = price;
+        this.priceWd = priceWd;
+    }
 
-        public double getPrice() {
-            return price;
+        public double getPriceWd() {
+            return priceWd;
         }
 
-        public void setPrice() {
-            this.price = price;
+        public void setPriceWd(double priceWd) {
+            this.priceWd = priceWd;
         }
     }
 
