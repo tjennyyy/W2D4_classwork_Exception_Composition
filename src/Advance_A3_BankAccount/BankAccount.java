@@ -1,4 +1,4 @@
 package Advance_A3_BankAccount;
 
-public class Customer {
+public class BankAccount {
 }
