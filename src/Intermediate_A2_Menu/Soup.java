@@ -1,4 +1,4 @@
-package Intermediate_A2;
+package Intermediate_A2_Menu;
 
 public class Soup {
 

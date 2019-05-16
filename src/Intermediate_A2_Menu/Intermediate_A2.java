@@ -14,15 +14,13 @@
 //ADVANCED: Research internet on “primitive wrapper classes java”
 
 
-package Intermediate_A2;
+package Intermediate_A2_Menu;
 
 public class Intermediate_A2 {
 
     public static void main (String[] args){
 
-
         WeekdayMenu Wd2 = new WeekdayMenu("Whatever Sandwich",(new Soup("Kale soup"," 300 ml")),"Yummy Desert",9.90);
-
         System.out.println("Menu for this weekday: " + Wd2.getMainDish()+ ", " + Wd2.getSoupOftheDay()+ ", " + Wd2.getDesert()+ " Price: € "+Wd2.getPriceWd());
 
 
